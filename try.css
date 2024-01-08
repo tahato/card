@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #f4f4f4;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.all {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+ 
+}
+.global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:65%;
+  width: 40%;
+  position: relative;
+  border-radius: 10%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.up {
+  margin-top: 1px;
+  height: 30%;
+  width: 99%;
+  background-color: #4070f4;
+  border: none;
+  border-radius: 20px 20px 0 0;
+}
+
+h2{
+  margin: 0px;
+}
+p{
+  margin-top: 0px;
+  padding-bottom: 5px;
+}
+#profile {
+  position: absolute;
+  top: 30px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #4070f4;
+  padding: 2px;
+  background-color: white;
+}
+.down {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logos{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+button{
+  background: #4070f4;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+ border: none;
+ width: 8vw;
+ height: 40px;
+}
+.bouton{
+margin: 20px 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.icons{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.iconstyle{
+  margin-right:40px;
+  border-right: 1px solid gray;
+  padding-right: 40px;
+}
+button:hover{
+cursor: pointer;
+/* filter: brightness(150%); */
+filter: contrast(200%);
+}
+#message{
+  margin-left: 50px;
+}

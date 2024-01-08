@@ -1,0 +1,45 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+.cards div {
+  border: 2px solid black;
+  padding-bottom: 200px;
+  width: 300px;
+  height:400px;
+  text-align: center;
+}
+
+#card1 {
+    align-items: f;
+  margin-left: 20px;
+  transition: 1s;
+  transform: skew(-20px);
+}
+#card2 {
+  margin-left: 20px;
+}
+#card3 {
+  margin-left: 20px;
+  transition: 3s;
+}
+#card1:hover {
+  background-color: aqua;
+  cursor: pointer;
+  
+}
+#card2:hover {
+  background-color: rgb(177, 213, 130);
+  cursor: pointer;
+}
+#card3:hover {
+  background-color: blue;
+  color: azure;
+  cursor: pointer;
+}
+html,body,.cards {
+  height: 100%;
+  overflow: hidden;
+}
